@@ -1,5 +1,5 @@
 var SEP = "\n";
-var ANIMATION_LOOPS = 50;
+var ANIMATION_LOOPS = 88;
 
 var audio = new Audio("dafunk.mp3");
 var celebrate = new Audio("wubalubadubdub.mp3");
