@@ -1,7 +1,7 @@
 var SEP = "\n";
 var ANIMATION_LOOPS = 50;
 
-var audio = new Audio("giveyouup.mp3");
+var audio = new Audio("dafunk.mp3");
 var celebrate = new Audio("wubalubadubdub.mp3");
 
 function $(id) {
