@@ -45,7 +45,7 @@ async function martyRunShuffleMulti() {
 	if (line[0] == ("BONUS SPIN")) {
 		$("expectedText").style.backgroundImage = "url(mindblown.gif)";
 		$("expectedText").style.color = "white";
-		celebrate.play();
+		//celebrate.play();
 		for (var i = 0; i < 20; i++) {
 			if (i % 2 == 0) {
 				document.body.style.backgroundColor = "red";
@@ -57,7 +57,6 @@ async function martyRunShuffleMulti() {
 	} else {
 		var text = $("expectedText").value;
 		var line = text.split(/\n/);
-		alert(line[0] + " goes first!");
 	}
  }
 
