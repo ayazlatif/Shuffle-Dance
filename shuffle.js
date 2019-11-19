@@ -42,7 +42,7 @@ async function martyRunShuffleMulti() {
 	audio.pause();
 	var text = $("expectedText").value;
 	var line = text.split(/\n/);
-	if (line[0] == ("BONUS SPIN")) {
+	if (line[0].toLowerCase().startsWith("bonus")) {
 		$("expectedText").style.backgroundImage = "url(mindblown.gif)";
 		$("expectedText").style.color = "white";
 		//celebrate.play();
